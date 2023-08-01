@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #3E454B;
+    color: #D9DAD2;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://wallpapers.com/images/hd/aesthetic-pixel-art-of-planets-at-night-x7vbn55rjmcjvppx.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+
+hr {
+    width: 500px;
+}
+
+.header {
+    margin-top: 40px;
+    font-family: 'Minecraft', sans-serif;
+}
+
+#board {
+    width: 400px;
+    height: 400px;
+
+    background-color: #cdc1b5;
+    border: 6px solid #bbada0;
+
+    margin: 120px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    border: 5px solid #bbada0;
+
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* colored tiles */
+
+.x2 {
+    background-color: #eee4da;
+    color: #727371;
+}
+
+.x4 {
+    background-color: #ece0ca;
+    color: #727371;
+}
+
+.x8 {
+    background-color: #f4b17a;
+    color: white;
+}
+
+.x16 {
+    background-color: #f59575;
+    color: white;
+}
+
+.x32 {
+    background-color: #f57c5f;
+    color: white;
+}
+
+.x64 {
+    background-color: #f65d3b;
+    color: white;
+}
+
+.x128 {
+    background-color: #edce71;
+    color: white;
+}
+
+.X256 {
+    background-color: #edc651;
+    color: white;
+}
+
+.x512 {
+    background-color: #edc651;
+    color: white;
+}
+
+.x1024 {
+    background-color: #eec744;
+    color: white;
+}
+
+.x2048 {
+    background-color: #ecc230;
+    color: white;
+}
+
+.gameover {
+    font-family: 'Minecraft', sans-serif;
+    font-size: 700%;
+    color: #ecc230;
+    z-index: 1000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 150px;
+    background-color: black;
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gameover > button {
+    font-family: 'Minecraft', sans-serif;
+    position: absolute;
+    margin-top: 400px;
+    font-size: 30px;
+}
