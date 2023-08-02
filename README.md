@@ -1,5 +1,5 @@
 <H1>2048</H1>
-This is my recreation of 2048, originally made by 'solebon LLC'.
+This is my recreation of 2048, originally build by 'solebon LLC'.
 <br>I had made this only for practice and study purpose, not for any commercial purpose.
 <br>I got help from 'Kenny Yip Coding' while building this. Link to video below.
 <br>https://www.youtube.com/watch?v=XM2n1gu4530
